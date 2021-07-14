@@ -1,0 +1,117 @@
+.section1{
+    background-color: white;
+    position: absolute;
+    bottom: auto;
+    /* padding: 0;
+    margin: 0; */
+    display: inline-block;
+    width: 100%;
+    height: 700px; 
+    
+
+}
+*{
+  padding: 0;
+  margin: 0;
+ 
+}
+
+
+
+/* styling navigation bar */
+.my-navbar{
+    text-align: right;
+    color: black;
+    background-color: rgb(14,194,184);
+    width: 100%;
+   
+    
+}
+.my-navbar li :first-child{
+  
+    border-left: 1px
+}
+
+
+.my-navbar ul li{
+    list-style: none;
+    display: inline-block;
+    /* padding: 0;
+    margin: 0; */
+}
+.my-navbar ul li a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 25px 30px;
+    font-size: 15px;text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+ 
+}
+.my-navbar a:hover{
+  background-color: black;
+}
+
+/* aligning the image and text */
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* title paragraph */
+  .caption p{
+    position:relative; right:400px; top:2px;
+    position: relative;
+    top: 180px;
+    font-size: 40px;
+
+    
+   
+  }
+/* positioning image */
+  .column img{
+    margin-left: 100%;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 500px;
+    height: 350px;
+    position: relative;
+    bottom: -70px;
+    float: left;
+  }
+ /* styling logo */
+ .image{
+    float: left;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    padding-bottom: 0;
+    top: 50%;
+  
+ }
+ 
+/* 
+ #Hero{
+   text-align: center;
+   font-weight: bold;
+   color: red;
+  
+  display: inline-block;
+  width: 100%;
+  /* height: 700px; */
+  /* text-align: center;
+  background-color: rgb(14,194,184);
+ } */
+ 
+
+
